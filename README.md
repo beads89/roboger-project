@@ -43,3 +43,9 @@ _Brandon Eads - brandon181989@hotmail.com_
 
 
 ## TDD
+
+Describe: roboTranslate(numInput);
+
+Test: "It should return an array with an index of 0 and counting up to the number that was input."
+Code: roboTranslate(10);
+Expected Output: expect(roboTranslate(5)).toEqual([0, 1, 2, 3, 4, 5])
