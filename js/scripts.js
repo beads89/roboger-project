@@ -8,7 +8,12 @@
 function roboTranslate(numInput) {
   let numDisplay = [];
   for (let i = 0; i <= numInput; i++) {
+    const iString = i.toString();
+    if (iString.includes(3)) {
+      numDisplay.push("Won't you be my neighbor?");
+    } else {
     numDisplay.push(i);
+    }
   }
   return numDisplay;
 }
