@@ -2,6 +2,7 @@
 // Return numbers containing 3 with "Won't you be my neighor?"    // DONE
 // Return numbers containing 2 with "Boop!"   // DONE
 // Return numbers containing 1 with "Beep!"   // DONE
+// Separate strings with a
 // Add input field for name and return it as "Won't you be my neighbor, <name>?"
 
 // Business Logic
@@ -9,7 +10,7 @@
 function roboTranslate(numInput) {
   let numDisplay = [];
   for (let i = 0; i <= numInput; i++) {
-    const iString = i.toString();
+    let iString = i.toString();
     if (iString.includes(3)) {
       numDisplay.push("Won't you be my neighbor?");
     } else if (iString.includes(2)) {
@@ -31,6 +32,6 @@ $(document).ready(function() {
     e.preventDefault();
     let numInput = $("#numInput").val();
     let translate = roboTranslate(numInput);
-      $("#numOutput").text(translate + " ");
+      $("#numOutput").text(translate);
   });
 })
