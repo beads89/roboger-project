@@ -34,5 +34,7 @@ $(document).ready(function() {
     let translate = roboTranslate(numInput);
       $("#numOutput").text(translate);
       $(".background-pic").show();
+      $(".translate").hide();
+      $(".tryagain").show();
   });
 })
