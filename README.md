@@ -57,3 +57,7 @@ Expected Output: expect(roboTranslate(5)).toEqual([0, 1, 2, "Won't you be my nei
 Test: "It should replace any '3' with 'Won't you be my neighbor?' and any '2' with 'Boop!'"
 Code: roboTranslate(5):
 Expected Output: expect(roboTranslate(5)).toEqual([0, 1, "Boop!", "Won't you be my neighbor?", 4, 5])
+
+Test: "It should replace any '3' with 'Won't you be my neighbor?', any '2' with 'Boop!' and any '1' with 'Beep!'"
+Code: roboTranslate(5):
+Expected Output: expect(roboTranslate(5)).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5])
