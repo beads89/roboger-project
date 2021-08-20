@@ -21,7 +21,7 @@ function roboTranslate(numInput) {
     numDisplay.push(i);
     }
   }
-  return numDisplay;
+  return numDisplay.join(", ");
 }
 
 
