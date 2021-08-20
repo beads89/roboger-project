@@ -14,6 +14,8 @@ function roboTranslate(numInput) {
       numDisplay.push("Won't you be my neighbor?");
     } else if (iString.includes(2)) {
       numDisplay.push("Boop!");
+    } else if (iString.includes(1)) {
+      numDisplay.push("Beep!");
     } else {
     numDisplay.push(i);
     }
