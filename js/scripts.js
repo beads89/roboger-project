@@ -11,6 +11,8 @@ function roboTranslate(numInput) {
     const iString = i.toString();
     if (iString.includes(3)) {
       numDisplay.push("Won't you be my neighbor?");
+    } else if (iString.includes(2)) {
+      numDisplay.push("Boop!");
     } else {
     numDisplay.push(i);
     }
