@@ -7,6 +7,9 @@
 
 function roboTranslate(numInput) {
   let numDisplay = [];
+  for (let i = 0; i <= numInput; i++) {
+    numDisplay.push(i);
+  }
   return numDisplay;
 }
 
