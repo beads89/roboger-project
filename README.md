@@ -6,7 +6,8 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application lets a user input a number from 0 to 1,000,000 and let Mr. Destructoid translate it to its own language. Translations replace any digit with '3' with the phrase 'Won't you be my neighbor?
+', '2' with 'Boop!' and '1' with 'Beep!'. This rule cascades and will follow a priority of digit containing '3', then '2' and '1'. So while '1' will display 'Beep!', '12' will display 'Boop!'._
 
 ## Technologies Used
 
@@ -20,22 +21,22 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone or download GitHub repository to machine_
+* _If a .zip was downloaded, extract contents into desired location_
+* _Navigate to and open "roboger-project" folder_
+* _Open index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? Does it require building packages? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _If a high enough number is entered, some output may appear outside the middle container._
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+MIT
+
+Copyright (c) Brandon Eads
 
 ## Contact Information
 
