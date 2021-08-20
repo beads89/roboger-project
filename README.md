@@ -25,6 +25,7 @@ _This application lets a user input a number from 0 to 1,000,000 and let Mr. Des
 * _If a .zip was downloaded, extract contents into desired location_
 * _Navigate to and open "roboger-project" folder_
 * _Open index.html_
+* _This project is also available for view via gh-pages at https://beads89.github.io/roboger-project/_
 
 
 ## Known Bugs
