@@ -29,5 +29,8 @@ function roboTranslate(numInput) {
 $(document).ready(function() {
   $("form#roboSpeak").submit(function(e) {
     e.preventDefault();
-  })
+    let numInput = $("#numInput").val();
+    let translate = roboTranslate(numInput);
+      $("#numOutput").html(translate);
+  });
 })
