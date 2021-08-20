@@ -14,7 +14,7 @@ _This application lets a user input a number from 0 to 1,000,000 and let Mr. Des
 * _HTML5_
 * _CSS_
 * _JavaScript_
-* _Bootstrap library for CSS_
+* _Bootstrap framework for CSS_
 * _jQuery library for JavaScript_
 
 
