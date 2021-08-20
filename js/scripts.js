@@ -31,6 +31,6 @@ $(document).ready(function() {
     e.preventDefault();
     let numInput = $("#numInput").val();
     let translate = roboTranslate(numInput);
-      $("#numOutput").html(translate);
+      $("#numOutput").text(translate + " ");
   });
 })
