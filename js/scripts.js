@@ -1,7 +1,7 @@
-// Take a number and split it into an array
-// Return numbers containing 3 with "Won't you be my neighor?"
-// Return numbers containing 2 with "Boop!"
-// Return numbers containing 1 with "Beep!"
+// Take a number and split it into an array   // DONE
+// Return numbers containing 3 with "Won't you be my neighor?"    // DONE
+// Return numbers containing 2 with "Boop!"   // DONE
+// Return numbers containing 1 with "Beep!"   // DONE
 // Add input field for name and return it as "Won't you be my neighbor, <name>?"
 
 // Business Logic
@@ -24,11 +24,10 @@ function roboTranslate(numInput) {
 }
 
 
-
-
-
-
-
-
-
 // UI Logic
+
+$(document).ready(function() {
+  $("form#roboSpeak").submit(function(e) {
+    e.preventDefault();
+  })
+})
